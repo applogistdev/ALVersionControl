@@ -22,7 +22,7 @@ pod 'ALVersionControl'
 
 ## Author
 
-sonifex, soner.guler@applogist.com
+sonifex, sonerguler93@gmail.com
 
 ## License
 

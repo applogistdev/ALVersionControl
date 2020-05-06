@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		04F3B287D9246110AB3F729F /* Pods-ALVersionControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALVersionControl_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ALVersionControl_Tests/Pods-ALVersionControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0C42FC2FB8B885E47DF29FCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0C42FC2FB8B885E47DF29FCB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5D47DE49DF3FE065685FAB65 /* Pods-ALVersionControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALVersionControl_Tests.release.xcconfig"; path = "Target Support Files/Pods-ALVersionControl_Tests/Pods-ALVersionControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ALVersionControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALVersionControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72EB819433C00A5B857000BC /* Pods-ALVersionControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALVersionControl_Example.release.xcconfig"; path = "Target Support Files/Pods-ALVersionControl_Example/Pods-ALVersionControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		847BF2AEFBD4FE4B13B9016D /* Pods_ALVersionControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALVersionControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92F282A5C5C4B645131D8F4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92F282A5C5C4B645131D8F4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C101E31AD35FCEB4D40A821F /* Pods_ALVersionControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALVersionControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D554553B425A392DFFF95B29 /* ALVersionControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ALVersionControl.podspec; path = ../ALVersionControl.podspec; sourceTree = "<group>"; };
+		D554553B425A392DFFF95B29 /* ALVersionControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ALVersionControl.podspec; path = ../ALVersionControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FF966D313BEF912CA5981414 /* Pods-ALVersionControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALVersionControl_Example.debug.xcconfig"; path = "Target Support Files/Pods-ALVersionControl_Example/Pods-ALVersionControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				04F3B287D9246110AB3F729F /* Pods-ALVersionControl_Tests.debug.xcconfig */,
 				5D47DE49DF3FE065685FAB65 /* Pods-ALVersionControl_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

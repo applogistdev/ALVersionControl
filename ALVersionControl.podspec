@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sonifex/ALVersionControl'
+  s.homepage         = 'https://github.com/applogistdev/ALVersionControl.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sonifex' => 'soner.guler@applogist.com' }
-  s.source           = { :git => 'https://github.com/sonifex/ALVersionControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'sonifex' => 'sonerguler93@gmail.com' }
+  s.source           = { :git => 'https://github.com/applogistdev/ALVersionControl.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

@@ -1,0 +1,6 @@
+framework module ALVersionControl {
+  umbrella header "ALVersionControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
