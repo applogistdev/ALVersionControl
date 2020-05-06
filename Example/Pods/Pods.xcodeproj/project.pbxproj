@@ -445,26 +445,9 @@
 			};
 			name = Release;
 		};
-		420B78BC156037C6B11BF4F61DA0708E /* Debug */ = {
+		241CEA0564BE76861FA1B97BAB04085A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALVersionControl";
-				IBSC_MODULE = ALVersionControl;
-				INFOPLIST_FILE = "Target Support Files/ALVersionControl/ResourceBundle-ALVersionControl-ALVersionControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = ALVersionControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		58B73C7AE8016626E9E5E73DFBDD2FD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
+			baseConfigurationReference = 7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -486,10 +469,28 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		420B78BC156037C6B11BF4F61DA0708E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALVersionControl";
+				IBSC_MODULE = ALVersionControl;
+				INFOPLIST_FILE = "Target Support Files/ALVersionControl/ResourceBundle-ALVersionControl-ALVersionControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PRODUCT_NAME = ALVersionControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -510,9 +511,9 @@
 			};
 			name = Release;
 		};
-		AA22396FABC0F1DD389B04D9B692F1F3 /* Release */ = {
+		AEEABB14786A0B717DBF59470CB813EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */;
+			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -534,13 +535,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -714,8 +714,8 @@
 		3DE5215FF261105CC74E4F6B0834791C /* Build configuration list for PBXNativeTarget "ALVersionControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58B73C7AE8016626E9E5E73DFBDD2FD5 /* Debug */,
-				AA22396FABC0F1DD389B04D9B692F1F3 /* Release */,
+				AEEABB14786A0B717DBF59470CB813EF /* Debug */,
+				241CEA0564BE76861FA1B97BAB04085A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
