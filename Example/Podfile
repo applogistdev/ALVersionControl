@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ALVersionControl_Example' do
+  pod 'ALVersionControl', :path => '../'
+
+  target 'ALVersionControl_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
