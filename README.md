@@ -19,22 +19,23 @@ ALVersionControl has handy request model called **ALVersionControlRequest** whic
 
 ```swift
 public  struct  ALVersionControlRequest: Encodable {
-///  OS Type (1:iOS - 2:Android)
-let os: Int
-///  App bundle version (e.g. 1.0.2)
-let version: String
 
-public  init() {
-self.os = 1
-self.version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
-}
+    ///  OS Type (1:iOS - 2:Android)
+    let os: Int
+    ///  App bundle version (e.g. 1.0.2)
+    let version: String
+
+    public  init() {
+        self.os = 1
+        self.version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+    }
 }
 ``` 
 Json
 ```json
 {
-"os": 1,
-"version": "1.0.2"
+    "os": 1,
+    "version": "1.0.2"
 }
 ```
 
@@ -45,35 +46,37 @@ ALVersionControl has response model called **ALVersionControlResponse** which yo
 
 ```swift
 public  enum  ALVersionControlStatus: Int, Codable {
-///  All good. App is up to date
-case upToDate = 0
-///  Optional update available
-case optional = 1
-///  Force update available
-case force = 2
+
+    ///  All good. App is up to date
+    case upToDate = 0
+    ///  Optional update available
+    case optional = 1
+    ///  Force update available
+    case force = 2
 }
 
 public  struct  ALVersionControlResponse: Decodable {
-///  The info message which inform to user there is a new update.
-let message: String?
-///  The status of new update.
-let status: ALVersionControlStatus?
-///  The market url which lead the user to update the app
-let url: URL?
+    
+    ///  The info message which inform to user there is a new update.
+    let message: String?
+    ///  The status of new update.
+    let status: ALVersionControlStatus?
+    ///  The market url which lead the user to update the app
+    let url: URL?
 
-public init(message: String?, status: ALVersionControlStatus?, url: URL?) {
-self.message = message
-self.status = status
-self.url = url
-}
+    public init(message: String?, status: ALVersionControlStatus?, url: URL?) {
+        self.message = message
+        self.status = status
+        self.url = url
+    }
 }
 ```
 Json
 ```json
 {
-"message": "Hey! You have a new update.",
-"status": 1,
-"url": "app market url"
+    "message": "Hey! You have a new update.",
+    "status": 1,
+    "url": "app market url"
 }
 ```
 
@@ -94,7 +97,7 @@ ALVersionControl.shared.setup(delegate: self)
 You have to handle applicationDidBecomeActive status. Just calling the appDidBecomeActive method is enough.
 ```swift
 func  applicationDidBecomeActive(_ application: UIApplication) {
-ALVersionControl.shared.appDidBecomeActive()
+    ALVersionControl.shared.appDidBecomeActive()
 }
 ```
 
