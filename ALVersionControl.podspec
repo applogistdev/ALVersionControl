@@ -27,15 +27,16 @@ TODO: Add long description of the pod here.
   s.author           = { 'sonifex' => 'sonerguler93@gmail.com' }
   s.source           = { :git => 'https://github.com/applogistdev/ALVersionControl.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.3'
 
   s.source_files = 'ALVersionControl/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ALVersionControl' => ['ALVersionControl/Assets/*.png']
-  # }
-
+  s.resource_bundles = {
+      'ALVersionControl' => ['ALVersionControl/Assets/*.xcassets','ALVersionControl/Assets/Localization/*.lproj']
+  }
+  s.resources = ['ALTwilioChat/Assets/*.{xcassets}']
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

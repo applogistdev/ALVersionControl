@@ -1,27 +1,16 @@
 PODS:
   - ALVersionControl (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
 
 DEPENDENCIES:
   - ALVersionControl (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   ALVersionControl:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALVersionControl: b4d1e0d4a03a2f6b928b4e7bffb892514848736e
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ALVersionControl: d05539ca2da87a8b6314d0c4f50185450e053892
 
-PODFILE CHECKSUM: 68f44de4047a35c8791fcc09134dbc8dbc19cb4b
+PODFILE CHECKSUM: 4239dab2e40a036666fdbc2930326c7183d43bcf
 
 COCOAPODS: 1.9.0
