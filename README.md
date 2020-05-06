@@ -101,6 +101,11 @@ func  applicationDidBecomeActive(_ application: UIApplication) {
 }
 ```
 
+## Language Support
+
+Turkish, English, Arabic
+
+*Feel free to add more. Pull requests are welcome :)*
 
 
 ## Installation
