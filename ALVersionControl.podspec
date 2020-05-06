@@ -28,13 +28,14 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/applogistdev/ALVersionControl.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '9.3'
+    s.swift_version = "5.0"
     
     s.source_files = 'ALVersionControl/Classes/**/*'
     
     s.resource_bundles = {
         'ALVersionControl' => ['ALVersionControl/Assets/*.xcassets','ALVersionControl/Assets/Localization/*.lproj']
     }
-    s.resources = ['ALTwilioChat/Assets/*.{xcassets}']
+    s.resources = ['ALVersionControl/Assets/*.{xcassets}']
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
