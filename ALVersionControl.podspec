@@ -33,9 +33,8 @@ Pod::Spec.new do |s|
     s.source_files = 'ALVersionControl/Classes/**/*'
     
     s.resource_bundles = {
-        'ALVersionControl' => ['ALVersionControl/Assets/*.xcassets','ALVersionControl/Assets/Localization/*.lproj']
+        'ALVersionControl' => ['ALVersionControl/Assets/Localization/*.lproj']
     }
-    s.resources = ['ALVersionControl/Assets/*.{xcassets}']
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
