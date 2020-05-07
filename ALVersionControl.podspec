@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '9.3'
     s.swift_version = "5.0"
     
-    s.source_files = 'ALVersionControl/Classes/**/*'
+    s.source_files = 'Sources/**/*.swift'
     
     s.resource_bundles = {
         'ALVersionControl' => ['ALVersionControl/Assets/Localization/*.lproj']
