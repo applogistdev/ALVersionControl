@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALVersionControl: 1ed195eb3a9a516dd2e86bfc9571cb479a6b0b0a
+  ALVersionControl: afdaa99a85254b69a7b71db34fc186494b248b37
 
 PODFILE CHECKSUM: 4239dab2e40a036666fdbc2930326c7183d43bcf
 

@@ -19,16 +19,12 @@
     "ios": "9.3"
   },
   "swift_versions": "5.0",
-  "source_files": "ALVersionControl/Classes/**/*",
+  "source_files": "Sources/**/*.swift",
   "resource_bundles": {
     "ALVersionControl": [
-      "ALVersionControl/Assets/*.xcassets",
       "ALVersionControl/Assets/Localization/*.lproj"
     ]
   },
-  "resources": [
-    "ALVersionControl/Assets/*.{xcassets}"
-  ],
   "frameworks": "UIKit",
   "swift_version": "5.0"
 }
