@@ -7,21 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01A4401A11109791E4EA5A898D158ECE /* ALVersionControlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC802FB19125424A913E81E9F9ABFE /* ALVersionControlRequest.swift */; };
 		2A2012BC7EA74F8B8612EC6A7A00FADA /* ALVersionControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA31FDDA35E1392AB9D4C9D44C956D8F /* ALVersionControl.bundle */; };
-		323D02B302F988D42680526EF797C00C /* ALVersionControlResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6769CCF413D9C5A77EED045339B993F9 /* ALVersionControlResponse.swift */; };
-		32716EB22B74C3A2C29B5BC39673DDCB /* ALVersionControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F6C063011CE8CDCD557DA3746CF83 /* ALVersionControl-dummy.m */; };
-		4C062761FEB425412FC04506733B7BE4 /* ALVersionControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 911F6341611C422BD4C82BA9FB5B15CB /* ALVersionControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32716EB22B74C3A2C29B5BC39673DDCB /* ALVersionControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F415359EF665ABA3250FC50EDA068E70 /* ALVersionControl-dummy.m */; };
+		37B553DE26EEBE1DC837E0F81FFA0B6E /* ALVersionControlResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F361C9A36577679A0A90CCCF893B5206 /* ALVersionControlResponse.swift */; };
+		4C062761FEB425412FC04506733B7BE4 /* ALVersionControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B3E0006B9719962C83F508A380B9BC /* ALVersionControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E2E97316FD4BA5F9718C2691644E437 /* Pods-ALVersionControl_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 721235E5E3B0EDDB8AFF567F9A9BA34B /* Pods-ALVersionControl_Example-dummy.m */; };
-		602C774275AFB4F69CD85FF9BDB4FC25 /* ALVersionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33D745F397D50A7284172D63FA67185 /* ALVersionControl.swift */; };
-		6601A8194ECDE83DA445ACB8088F9741 /* ALHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9C6116E4BC684DEB64B9155ADD6D38 /* ALHelper.swift */; };
-		6BBA0CEB9CAC1C6DFA7CCD897C5D52F7 /* ALVersionControlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B8AA73871CCF97B893E8C1C28CC031 /* ALVersionControlRequest.swift */; };
+		5317ED32DBFD628E31CCA2CDCF5FC1F0 /* ALHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBFB06322DD1DF780B7F44D78BCD993 /* ALHelper.swift */; };
 		6F4A0D2180FE3A119BCFCF6B8913ED81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7DCCB69AC67E00E1CC98897993C5BF4C /* ALVersionControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79096F100982E5083E9AB5AD9872C1E6 /* ALVersionControl.swift */; };
 		96588E9A3B224236D5DAC480EC1256E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		98F63BD825021BEF9F55D6E2D874E939 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B82AB01BC38DCE34DB8779D6D6C42CE8 /* ar.lproj */; };
-		9F86F80E2093F1B16B2A3250681C1FCC /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E82ADFC636D6BA978BB88FC397C1E558 /* tr.lproj */; };
-		A7D85242F2888B56BC84D083CC9658F9 /* ALVersionControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E0AC80901D9FA21DE80B54FC1AF03 /* ALVersionControllerAlert.swift */; };
+		99FEB25CCC9057C68EE3E9EA89CD3705 /* ALVersionControllerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B01D0EC7E043D4B158F81D54F06431 /* ALVersionControllerAlert.swift */; };
 		B16437DFC1596CC58764B9C4341974BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		E179D4719D50D233D294F2F19BE7CC81 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A27A21EFDF67C9574AB03A2B94DD888A /* en.lproj */; };
 		F27C347F6F9A81D1DF3D0166B2C5116A /* Pods-ALVersionControl_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B14CD7E46C1C06558AD6DBFB72BA45F5 /* Pods-ALVersionControl_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -43,40 +40,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050E0AC80901D9FA21DE80B54FC1AF03 /* ALVersionControllerAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControllerAlert.swift; path = ALVersionControl/Classes/ALVersionControllerAlert.swift; sourceTree = "<group>"; };
 		0DBC6A02CA7F4E73B8FEC66FE08A1DCB /* Pods-ALVersionControl_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ALVersionControl_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		29B8AA73871CCF97B893E8C1C28CC031 /* ALVersionControlRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControlRequest.swift; path = ALVersionControl/Classes/ALVersionControlRequest.swift; sourceTree = "<group>"; };
+		23B01D0EC7E043D4B158F81D54F06431 /* ALVersionControllerAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControllerAlert.swift; path = Sources/ALVersionControl/Classes/ALVersionControllerAlert.swift; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		38E1C7E1B4E520CB555A3723D7587F86 /* ResourceBundle-ALVersionControl-ALVersionControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALVersionControl-ALVersionControl-Info.plist"; sourceTree = "<group>"; };
-		394D5201F8413F3A4663123D2E6BC591 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3C808B54D2C363EC78BC23A800CA7EF0 /* ALVersionControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALVersionControl-Info.plist"; sourceTree = "<group>"; };
-		3E1F6C063011CE8CDCD557DA3746CF83 /* ALVersionControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALVersionControl-dummy.m"; sourceTree = "<group>"; };
 		4336DD4A03BC2F2FFC24ED99F3DD3F20 /* Pods-ALVersionControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALVersionControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4AEDAD4C7FA5F84F7F69EE934715CAFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		548C477B83F84669879CF65894829596 /* Pods-ALVersionControl_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ALVersionControl_Example.modulemap"; sourceTree = "<group>"; };
-		6769CCF413D9C5A77EED045339B993F9 /* ALVersionControlResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControlResponse.swift; path = ALVersionControl/Classes/ALVersionControlResponse.swift; sourceTree = "<group>"; };
+		67B3E0006B9719962C83F508A380B9BC /* ALVersionControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALVersionControl-umbrella.h"; sourceTree = "<group>"; };
+		68BABB30A7F4F70B3ECAB714F5544BC9 /* ALVersionControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALVersionControl.release.xcconfig; sourceTree = "<group>"; };
 		692806EB5A4A48A6D2F4BBD687E046A8 /* Pods-ALVersionControl_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALVersionControl_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		721235E5E3B0EDDB8AFF567F9A9BA34B /* Pods-ALVersionControl_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ALVersionControl_Example-dummy.m"; sourceTree = "<group>"; };
-		75A3B5CF30245CB573CC1D9669655239 /* ALVersionControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALVersionControl.modulemap; sourceTree = "<group>"; };
+		79096F100982E5083E9AB5AD9872C1E6 /* ALVersionControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControl.swift; path = Sources/ALVersionControl/Classes/ALVersionControl.swift; sourceTree = "<group>"; };
 		79AFC88674AC25599885AD32EC877311 /* Pods-ALVersionControl_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ALVersionControl_Example-Info.plist"; sourceTree = "<group>"; };
-		7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALVersionControl.debug.xcconfig; sourceTree = "<group>"; };
-		7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALVersionControl.release.xcconfig; sourceTree = "<group>"; };
 		908180CD239ACDD2EA607AC8231C4DDC /* Pods_ALVersionControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ALVersionControl_Example.framework; path = "Pods-ALVersionControl_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		911F6341611C422BD4C82BA9FB5B15CB /* ALVersionControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALVersionControl-umbrella.h"; sourceTree = "<group>"; };
+		95992B80188B4780EA72023FAB3441FA /* ALVersionControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALVersionControl.modulemap; sourceTree = "<group>"; };
+		9C83FF6CDC33935E6EC6A8A228138A51 /* ALVersionControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALVersionControl-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A27A21EFDF67C9574AB03A2B94DD888A /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = ALVersionControl/Assets/Localization/en.lproj; sourceTree = "<group>"; };
-		AF9C6116E4BC684DEB64B9155ADD6D38 /* ALHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALHelper.swift; path = ALVersionControl/Classes/ALHelper.swift; sourceTree = "<group>"; };
+		AAAC802FB19125424A913E81E9F9ABFE /* ALVersionControlRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControlRequest.swift; path = Sources/ALVersionControl/Classes/ALVersionControlRequest.swift; sourceTree = "<group>"; };
 		B14CD7E46C1C06558AD6DBFB72BA45F5 /* Pods-ALVersionControl_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ALVersionControl_Example-umbrella.h"; sourceTree = "<group>"; };
-		B4C256A8F67786992420497EC7AB3FA9 /* ALVersionControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALVersionControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B82AB01BC38DCE34DB8779D6D6C42CE8 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = ALVersionControl/Assets/Localization/ar.lproj; sourceTree = "<group>"; };
+		B1667326962B43B155A8FD3CE3CBF36D /* ALVersionControl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ALVersionControl.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA31FDDA35E1392AB9D4C9D44C956D8F /* ALVersionControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ALVersionControl.bundle; path = "ALVersionControl-ALVersionControl.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AF929EDB1E09A7D38C8C25A5540924 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C33D745F397D50A7284172D63FA67185 /* ALVersionControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControl.swift; path = ALVersionControl/Classes/ALVersionControl.swift; sourceTree = "<group>"; };
+		BD8C7D0CBC96DF0FF9600A0A3F7F1E8A /* ResourceBundle-ALVersionControl-ALVersionControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ALVersionControl-ALVersionControl-Info.plist"; sourceTree = "<group>"; };
 		C732E49B6D9FB07407DD878E97028348 /* Pods-ALVersionControl_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ALVersionControl_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DA469FED7F420C0BC2B1E2978829B5E6 /* ALVersionControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALVersionControl-prefix.pch"; sourceTree = "<group>"; };
+		CDBFB06322DD1DF780B7F44D78BCD993 /* ALHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALHelper.swift; path = Sources/ALVersionControl/Classes/ALHelper.swift; sourceTree = "<group>"; };
+		CE65E68BF9B3BEE442FEFA5AB6F0579D /* ALVersionControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALVersionControl-prefix.pch"; sourceTree = "<group>"; };
+		D9DC1AD5331EE8A338B50D3B57575B2E /* ALVersionControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALVersionControl.debug.xcconfig; sourceTree = "<group>"; };
 		E22163D14D71AC5B39318AADDA123C85 /* Pods-ALVersionControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ALVersionControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E82ADFC636D6BA978BB88FC397C1E558 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = ALVersionControl/Assets/Localization/tr.lproj; sourceTree = "<group>"; };
+		F361C9A36577679A0A90CCCF893B5206 /* ALVersionControlResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALVersionControlResponse.swift; path = Sources/ALVersionControl/Classes/ALVersionControlResponse.swift; sourceTree = "<group>"; };
+		F415359EF665ABA3250FC50EDA068E70 /* ALVersionControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALVersionControl-dummy.m"; sourceTree = "<group>"; };
 		F68F09CD7E8DF9D5C153333117A64045 /* ALVersionControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALVersionControl.framework; path = ALVersionControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE8586C798A1E7D5778140309628B35 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,20 +101,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0664CF9BEC82E5B9A2924C37CCB91B04 /* ALVersionControl */ = {
+		1224F90756C3AEBF4FCDA4AABD7A6C3E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AF9C6116E4BC684DEB64B9155ADD6D38 /* ALHelper.swift */,
-				C33D745F397D50A7284172D63FA67185 /* ALVersionControl.swift */,
-				050E0AC80901D9FA21DE80B54FC1AF03 /* ALVersionControllerAlert.swift */,
-				29B8AA73871CCF97B893E8C1C28CC031 /* ALVersionControlRequest.swift */,
-				6769CCF413D9C5A77EED045339B993F9 /* ALVersionControlResponse.swift */,
-				931B12DBFF74B6DF34A52B19777B50F2 /* Pod */,
-				9F75AB5E2DB6D048C957595E7100F1B1 /* Resources */,
-				FA91C3BA112B9D7EEB4EEA9FE05036AD /* Support Files */,
+				8104D45075A82EC3B2D7E477AE194100 /* ALVersionControl */,
 			);
-			name = ALVersionControl;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -141,12 +127,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24C7F33F0FC42F49F79A603C71D17195 /* Development Pods */ = {
+		8104D45075A82EC3B2D7E477AE194100 /* ALVersionControl */ = {
 			isa = PBXGroup;
 			children = (
-				0664CF9BEC82E5B9A2924C37CCB91B04 /* ALVersionControl */,
+				CDBFB06322DD1DF780B7F44D78BCD993 /* ALHelper.swift */,
+				79096F100982E5083E9AB5AD9872C1E6 /* ALVersionControl.swift */,
+				23B01D0EC7E043D4B158F81D54F06431 /* ALVersionControllerAlert.swift */,
+				AAAC802FB19125424A913E81E9F9ABFE /* ALVersionControlRequest.swift */,
+				F361C9A36577679A0A90CCCF893B5206 /* ALVersionControlResponse.swift */,
+				BFC70603C93DDF3126B13B623B81FD58 /* Pod */,
+				F2F47F94D3AC03771AD3362E2E35CED4 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = ALVersionControl;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		8D76F5765E30F36E0E3FCBEB30AA72FE /* Targets Support Files */ = {
@@ -157,31 +150,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		931B12DBFF74B6DF34A52B19777B50F2 /* Pod */ = {
+		BFC70603C93DDF3126B13B623B81FD58 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B4C256A8F67786992420497EC7AB3FA9 /* ALVersionControl.podspec */,
-				C2AF929EDB1E09A7D38C8C25A5540924 /* LICENSE */,
-				394D5201F8413F3A4663123D2E6BC591 /* README.md */,
+				B1667326962B43B155A8FD3CE3CBF36D /* ALVersionControl.podspec */,
+				FEE8586C798A1E7D5778140309628B35 /* LICENSE */,
+				4AEDAD4C7FA5F84F7F69EE934715CAFE /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		9F75AB5E2DB6D048C957595E7100F1B1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B82AB01BC38DCE34DB8779D6D6C42CE8 /* ar.lproj */,
-				A27A21EFDF67C9574AB03A2B94DD888A /* en.lproj */,
-				E82ADFC636D6BA978BB88FC397C1E558 /* tr.lproj */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				24C7F33F0FC42F49F79A603C71D17195 /* Development Pods */,
+				1224F90756C3AEBF4FCDA4AABD7A6C3E /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				1D6921DA1401C48D8C708843EF838143 /* Products */,
 				8D76F5765E30F36E0E3FCBEB30AA72FE /* Targets Support Files */,
@@ -214,17 +197,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FA91C3BA112B9D7EEB4EEA9FE05036AD /* Support Files */ = {
+		F2F47F94D3AC03771AD3362E2E35CED4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				75A3B5CF30245CB573CC1D9669655239 /* ALVersionControl.modulemap */,
-				3E1F6C063011CE8CDCD557DA3746CF83 /* ALVersionControl-dummy.m */,
-				3C808B54D2C363EC78BC23A800CA7EF0 /* ALVersionControl-Info.plist */,
-				DA469FED7F420C0BC2B1E2978829B5E6 /* ALVersionControl-prefix.pch */,
-				911F6341611C422BD4C82BA9FB5B15CB /* ALVersionControl-umbrella.h */,
-				7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */,
-				7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */,
-				38E1C7E1B4E520CB555A3723D7587F86 /* ResourceBundle-ALVersionControl-ALVersionControl-Info.plist */,
+				95992B80188B4780EA72023FAB3441FA /* ALVersionControl.modulemap */,
+				F415359EF665ABA3250FC50EDA068E70 /* ALVersionControl-dummy.m */,
+				9C83FF6CDC33935E6EC6A8A228138A51 /* ALVersionControl-Info.plist */,
+				CE65E68BF9B3BEE442FEFA5AB6F0579D /* ALVersionControl-prefix.pch */,
+				67B3E0006B9719962C83F508A380B9BC /* ALVersionControl-umbrella.h */,
+				D9DC1AD5331EE8A338B50D3B57575B2E /* ALVersionControl.debug.xcconfig */,
+				68BABB30A7F4F70B3ECAB714F5544BC9 /* ALVersionControl.release.xcconfig */,
+				BD8C7D0CBC96DF0FF9600A0A3F7F1E8A /* ResourceBundle-ALVersionControl-ALVersionControl-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ALVersionControl";
@@ -277,7 +260,7 @@
 			buildPhases = (
 				06EEFD24B7128B0E7371005493B0F867 /* Sources */,
 				611ECA9D7B25EC0C66204E45963DC9E1 /* Frameworks */,
-				D28AA71E21F65A5F0C56370F57CA9190 /* Resources */,
+				C99A8B72350C44F1FC36A40680FD2DEF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,13 +335,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D28AA71E21F65A5F0C56370F57CA9190 /* Resources */ = {
+		C99A8B72350C44F1FC36A40680FD2DEF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F63BD825021BEF9F55D6E2D874E939 /* ar.lproj in Resources */,
-				E179D4719D50D233D294F2F19BE7CC81 /* en.lproj in Resources */,
-				9F86F80E2093F1B16B2A3250681C1FCC /* tr.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,12 +364,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6601A8194ECDE83DA445ACB8088F9741 /* ALHelper.swift in Sources */,
+				5317ED32DBFD628E31CCA2CDCF5FC1F0 /* ALHelper.swift in Sources */,
 				32716EB22B74C3A2C29B5BC39673DDCB /* ALVersionControl-dummy.m in Sources */,
-				602C774275AFB4F69CD85FF9BDB4FC25 /* ALVersionControl.swift in Sources */,
-				A7D85242F2888B56BC84D083CC9658F9 /* ALVersionControllerAlert.swift in Sources */,
-				6BBA0CEB9CAC1C6DFA7CCD897C5D52F7 /* ALVersionControlRequest.swift in Sources */,
-				323D02B302F988D42680526EF797C00C /* ALVersionControlResponse.swift in Sources */,
+				7DCCB69AC67E00E1CC98897993C5BF4C /* ALVersionControl.swift in Sources */,
+				99FEB25CCC9057C68EE3E9EA89CD3705 /* ALVersionControllerAlert.swift in Sources */,
+				01A4401A11109791E4EA5A898D158ECE /* ALVersionControlRequest.swift in Sources */,
+				37B553DE26EEBE1DC837E0F81FFA0B6E /* ALVersionControlResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,7 +427,7 @@
 		};
 		241CEA0564BE76861FA1B97BAB04085A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */;
+			baseConfigurationReference = 68BABB30A7F4F70B3ECAB714F5544BC9 /* ALVersionControl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -479,7 +459,7 @@
 		};
 		420B78BC156037C6B11BF4F61DA0708E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
+			baseConfigurationReference = D9DC1AD5331EE8A338B50D3B57575B2E /* ALVersionControl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALVersionControl";
@@ -496,7 +476,7 @@
 		};
 		5BE0D5BB351AB646814373826FA79F80 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EE79C877186472ACAA386CE63D8EFDF /* ALVersionControl.release.xcconfig */;
+			baseConfigurationReference = 68BABB30A7F4F70B3ECAB714F5544BC9 /* ALVersionControl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ALVersionControl";
@@ -513,7 +493,7 @@
 		};
 		AEEABB14786A0B717DBF59470CB813EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E71444B4F80630F29B59A8E7022E4E4 /* ALVersionControl.debug.xcconfig */;
+			baseConfigurationReference = D9DC1AD5331EE8A338B50D3B57575B2E /* ALVersionControl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
