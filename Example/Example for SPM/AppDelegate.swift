@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import ALVersionControl_Example
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

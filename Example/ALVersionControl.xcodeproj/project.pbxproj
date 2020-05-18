@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		834DD4E82472C21B002517C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834DD4E62472C21B002517C8 /* Main.storyboard */; };
 		834DD4EA2472C21D002517C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834DD4E92472C21D002517C8 /* Assets.xcassets */; };
 		834DD4ED2472C21D002517C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834DD4EB2472C21D002517C8 /* LaunchScreen.storyboard */; };
+		834DD4F42472C289002517C8 /* ALVersionControl in Frameworks */ = {isa = PBXBuildFile; productRef = 834DD4F32472C289002517C8 /* ALVersionControl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834DD4F42472C289002517C8 /* ALVersionControl in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +188,9 @@
 			dependencies = (
 			);
 			name = "Example for SPM";
+			packageProductDependencies = (
+				834DD4F32472C289002517C8 /* ALVersionControl */,
+			);
 			productName = "Example for SPM";
 			productReference = 834DD4DE2472C21B002517C8 /* Example for SPM.app */;
 			productType = "com.apple.product-type.application";
@@ -207,8 +212,6 @@
 					};
 					834DD4DD2472C21B002517C8 = {
 						CreatedOnToolsVersion = 11.4.1;
-						DevelopmentTeam = 3B4NKCGYY8;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -222,6 +225,9 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				834DD4F22472C289002517C8 /* XCRemoteSwiftPackageReference "ALVersionControl" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -455,7 +461,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -467,7 +474,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B4NKCGYY8;
 				INFOPLIST_FILE = ALVersionControl/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -483,7 +493,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3B4NKCGYY8;
 				INFOPLIST_FILE = ALVersionControl/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,7 +521,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Example for SPM/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.applogist.alversioncontrol.Example-for-SPM";
@@ -534,7 +550,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "Example for SPM/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.applogist.alversioncontrol.Example-for-SPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -574,6 +593,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		834DD4F22472C289002517C8 /* XCRemoteSwiftPackageReference "ALVersionControl" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/applogistdev/ALVersionControl.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		834DD4F32472C289002517C8 /* ALVersionControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 834DD4F22472C289002517C8 /* XCRemoteSwiftPackageReference "ALVersionControl" */;
+			productName = ALVersionControl;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }
