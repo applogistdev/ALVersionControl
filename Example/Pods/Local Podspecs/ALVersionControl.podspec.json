@@ -1,6 +1,6 @@
 {
   "name": "ALVersionControl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "ALVersionControl is an application update process controller.",
   "description": "ALVersionControl is an application update process controller. There are 3 types of update status which described below. AlVersionControl does not provide any api call. You have to make it in own way.",
   "homepage": "https://github.com/applogistdev/ALVersionControl.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/applogistdev/ALVersionControl.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.3"
@@ -22,7 +22,7 @@
   "source_files": "Sources/**/*.swift",
   "resource_bundles": {
     "ALVersionControl": [
-      "ALVersionControl/Assets/Localization/*.lproj"
+      "Sources/ALVersionControl/Assets/Localization/*.lproj"
     ]
   },
   "frameworks": "UIKit",

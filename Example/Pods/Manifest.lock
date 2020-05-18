@@ -1,5 +1,5 @@
 PODS:
-  - ALVersionControl (0.1.0)
+  - ALVersionControl (0.2.0)
 
 DEPENDENCIES:
   - ALVersionControl (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ALVersionControl: afdaa99a85254b69a7b71db34fc186494b248b37
+  ALVersionControl: 720e926f2483558865b0782f86c764565a5c8edd
 
 PODFILE CHECKSUM: 4239dab2e40a036666fdbc2930326c7183d43bcf
 
