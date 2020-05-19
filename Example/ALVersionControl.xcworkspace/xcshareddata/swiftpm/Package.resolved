@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ALVersionControl",
+        "repositoryURL": "https://github.com/applogistdev/ALVersionControl.git",
+        "state": {
+          "branch": "develop",
+          "revision": "29fc6f756a6b8694fc762bd38163d45cad320d33",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

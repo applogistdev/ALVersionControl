@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ALVersionControl
 
-Copyright (c) 2020 sonifex <soner.guler@applogist.com>
+Copyright (c) 2020 applogist <development@applogist.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

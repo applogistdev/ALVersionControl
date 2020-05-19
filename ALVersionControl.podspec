@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     s.source_files = 'Sources/**/*.swift'
     
     s.resource_bundles = {
-        'ALVersionControl' => ['ALVersionControl/Assets/Localization/*.lproj']
+        'ALVersionControl' => ['Sources/ALVersionControl/Assets/Localization/*.lproj']
     }
     
     # s.public_header_files = 'Pod/Classes/**/*.h'
